@@ -1,0 +1,26 @@
+.uploadWrap{
+    position: relative;
+    width: 74px;
+    height: 28px;
+    .uploadtrans{
+        height: 28px;
+        width: 74px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        opacity: 0;
+    }
+    .uploadBtn{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+}
+.text-style-item{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}

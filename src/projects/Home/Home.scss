@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+html {
+    background: #000;
+    padding: 20px 20px 0;
+}
+.content {
+    position: absolute;
+    top: 120px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    overflow-y: scroll;
+}
+img {
+    width: 800px;
+    height: 800px;
+    object-fit: contain;
+}
+canvas {
+    display: none;
+}
+#gifImg {
+    display: none;
+}

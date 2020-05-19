@@ -1,0 +1,64 @@
+## 纯文字表情模板（标有*的为必需数据）
+
+文字
+
+{
+    * fontSize: '', //文字大小
+    * fontFamily: '', //字体
+    fontWeight: '', //字重(默认500)
+    textShadow: [0,0],//文字阴影偏移量
+    textShadowColor: '' //文字阴影颜色
+    textBorder: 1, //文字边框大小
+    textBorderColor: #FFFFFF,//文字边框颜色
+}
+
+特效模板
+
+移动特效
+{
+    * start: [10, 50], //初始位置
+    * end: [200, 250], //结束位置
+}
+
+放大缩小特效
+
+{
+    * scaleStart: 1, //初始大小
+    * scaleEnd: 2,  //结束大小
+}
+
+旋转特效
+
+{
+    * rotateStart: 0, //初始旋转角度
+    * rotateEnd: Math.PI * 2 //结束旋转角度
+}
+组合特效(例子)
+{
+    rotateStart: 0, //初始旋转角度
+    rotateEnd: Math.PI * 2 //结束旋转角度
+    scaleStart: 1, //初始大小
+    scaleEnd: 2,  //结束大小
+}
+
+##  DIY组合表情
+
+文字（标有*的为必需数据）
+
+{
+    * fontSize: '', //文字大小
+    * fontFamily: '', //字体
+    fontWeight: '', //字重
+    textShadow: [0,0],//文字阴影偏移量
+    textShadowColor: '' //文字阴影颜色
+    textBorder: 1, //文字边框大小
+    textBorderColor: #FFFFFF,//文字边框颜色
+}
+
+脸部数据
+
+{
+    * image: '',//图片
+    * x: '', //图片放表情中心位置的x坐标
+    * y: '', //图片放表情中心位置的y坐标
+}
